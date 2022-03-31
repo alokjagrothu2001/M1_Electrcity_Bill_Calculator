@@ -1,1 +1,1 @@
-# M1_Electrcity_Bill_Calculator
+# M1_Electricity_Bill_Calculator
