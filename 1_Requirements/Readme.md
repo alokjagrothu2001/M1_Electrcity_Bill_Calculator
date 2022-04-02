@@ -54,6 +54,11 @@ The group will be selected like A or B or C
 | LLR0x5 | The bill amount will be calculated by adding energy charges to fixed charges, customer charges and electrical duty charges.
 | LLR0x6 |   And hence the total bill amount will be noted
           |HLR0x1 HLR0x2 |  | Implemented |
+          
+          
+# System:
+![Defining_System](https://user-images.githubusercontent.com/101423374/161370695-2ede45f1-fdce-4710-8b85-cfaa9fe347eb.JPG)
+
 
 
 
