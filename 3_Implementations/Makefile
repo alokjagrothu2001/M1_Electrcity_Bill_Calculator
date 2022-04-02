@@ -1,5 +1,5 @@
-PROJECT_NAME = bill
-TEST_PROJECT_NAME= Test_$(PROJECT_NAME)
+PROJ_NAME = bill
+TEST_PROJ_NAME= Test_$(PROJ_NAME)
 
 Build= build
 
@@ -30,24 +30,24 @@ endif
 .PHONY: run clean test doc all
 
 all:
-	gcc -I $(INC) $(SRC)  -o $(call FixPath, $(PROJECT_NAME).$(EXEC))
+	gcc -I $(INC) $(SRC)  -o $(call FixPath, $(PROJ_NAME).$(EXEC))
 
 
 run:
-	$(call FixPath,$(PROJECT_NAME).$(EXEC))	
+	$(call FixPath,$(PROJ_NAME).$(EXEC))	
 
 
 cppcheck:
 	cppcheck --enable= all $(SRC) test.c
 
 debug:
-	gcc -I $(INC) $(SRC)  -g -o $(PROJECT_NAME).$(EXEC)
-	gdb $(PROJECT_NAME).$(EXEC)
+	gcc -I $(INC) $(SRC)  -g -o $(PROJ_NAME).$(EXEC)
+	gdb $(PROJ_NAME).$(EXEC)
 
 valgrind:
-	valgrind ./$(TEST_PROJECT_NAME).$(EXEC)	 
+	valgrind ./$(TEST_PROJ_NAME).$(EXEC)	 
 
 
 test:
-	gcc -I $(INC) -I $(INC_TEST) $(TEST_SRC) $(SRC) -o $(call FixPath,$(TEST_PROJECT_NAME).$(EXEC))
-	./$(call FixPath,$(TEST_PROJECT_NAME).$(EXEC))
+	gcc -I $(INC) -I $(INC_TEST) $(TEST_SRC) $(SRC) -o $(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
+	./$(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
