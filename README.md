@@ -8,3 +8,14 @@
 [![Git Inspector](https://github.com/alokjagrothu2001/M1_Electricity_Bill_Calculator/actions/workflows/git_inspector.yml/badge.svg)](https://github.com/alokjagrothu2001/M1_Electricity_Bill_Calculator/actions/workflows/git_inspector.yml)
 # Build
 [![CI](https://github.com/alokjagrothu2001/M1_Electricity_Bill_Calculator/actions/workflows/main.yml/badge.svg)](https://github.com/alokjagrothu2001/M1_Electricity_Bill_Calculator/actions/workflows/main.yml)
+
+## Folder Structure
+
+| Folder             | Description                                   |
+| ------------------ | --------------------------------------------- |
+| `0_Certificates`   | certificates of course completions            |
+| `1_Requirements`   | Documents detailing requirements and research |
+| `2_Design`         | Documents specifying design details           |
+| `3_Implementation` | All codes and documentation                   |
+| '4_Testplan        | Documents with test plans and procedures      |
+
