@@ -65,6 +65,17 @@ From conventional energy sources or from renewable energy sources the energy is 
 |LP08| The energy charges will be added to customer charges ,Duty charges,Fixed charges | Pass | Requirements |
 |LP09| Bill amounts will get as output | Exits from loop | Pass | Requirement |
 
+# Output
+![terminal](https://user-images.githubusercontent.com/101423374/161423482-eaa3abfb-b387-45b0-b68f-2d2de0132862.JPG)
+![output](https://user-images.githubusercontent.com/101423374/161423490-3549498f-9b73-49ff-a273-33ecb3ea27a8.JPG)
+
+# Challenges Faced and How was it overcome?
+<br>1.Issue while running Makefile - Make sure you have included all the files with .o extension and also include correct path for unity and test file
+<br>2.Issue with workflows - Check you folder structure where all the unity and makefile is present and include the path correctly.
+
+# To Run the make file use Following comands
+<br>make
+<br>make run
 
 
 
