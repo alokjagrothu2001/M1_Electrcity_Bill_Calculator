@@ -10,6 +10,8 @@
 [![CI](https://github.com/alokjagrothu2001/M1_Electricity_Bill_Calculator/actions/workflows/main.yml/badge.svg)](https://github.com/alokjagrothu2001/M1_Electricity_Bill_Calculator/actions/workflows/main.yml)
 # static code quality
 [![Static Code Quality- Cppcheck](https://github.com/alokjagrothu2001/M1_Electricity_Bill_Calculator/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/alokjagrothu2001/M1_Electricity_Bill_Calculator/actions/workflows/cppcheck.yml)
+# Unit Testing
+[![Unit Testing - Unity](https://github.com/alokjagrothu2001/M1_Electricity_Bill_Calculator/actions/workflows/unity.yml/badge.svg)](https://github.com/alokjagrothu2001/M1_Electricity_Bill_Calculator/actions/workflows/unity.yml)
 
 ## Folder Structure
 
