@@ -8,6 +8,8 @@
 [![Git Inspector](https://github.com/alokjagrothu2001/M1_Electricity_Bill_Calculator/actions/workflows/git_inspector.yml/badge.svg)](https://github.com/alokjagrothu2001/M1_Electricity_Bill_Calculator/actions/workflows/git_inspector.yml)
 # Build
 [![CI](https://github.com/alokjagrothu2001/M1_Electricity_Bill_Calculator/actions/workflows/main.yml/badge.svg)](https://github.com/alokjagrothu2001/M1_Electricity_Bill_Calculator/actions/workflows/main.yml)
+# static code quality
+[![Static Code Quality- Cppcheck](https://github.com/alokjagrothu2001/M1_Electricity_Bill_Calculator/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/alokjagrothu2001/M1_Electricity_Bill_Calculator/actions/workflows/cppcheck.yml)
 
 ## Folder Structure
 
